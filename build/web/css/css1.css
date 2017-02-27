@@ -1,0 +1,85 @@
+/* The styles for the elements */
+body { 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 85%;
+    margin-left: 40em;
+    margin-right: 2em;
+    width: 600px;
+}
+h1 {     
+    font-size: 140%;
+    color: teal;
+    margin-bottom: .5em;    
+}
+p {
+    color: green;
+}
+submit{
+    color: blue;
+}
+label {
+    float: left;
+    width: 8em;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+}
+input[type="text"], input[type="email"] {  /* An attribute selector */
+    width: 30em;
+    margin-left: 0.5em;    
+    margin-bottom: 0.5em;
+}
+span {
+    margin-left: 0.5em;    
+    margin-bottom: 0.5em;    
+}
+br {
+    clear: both;
+}
+
+/* The styles for the classes */
+.pad_top {
+    padding-top: 0.5em;
+}
+.margin_left {
+    margin-left: 0.5em;
+    
+}
+
+/* The styles for the tables */
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 50em;
+}
+th, td {
+    border: 1px solid black;
+    text-align: left;
+    padding: .5em;
+}
+.right {
+    text-align: right;
+}
+
+
+/* The styles for displaying forms and buttons */
+.inline {
+    display: inline;
+}
+.confirm_button {
+    width: 5em;
+}
+
+#codeBox, #priceBox {
+    width: 6em;
+}
+#descriptionBox {
+    width: 30em;
+}
+#price_value{
+    width:6em;
+    align-items: left;
+    text-align: left;
+}
+form{
+    display:inline;
+}
